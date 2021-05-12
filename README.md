@@ -71,3 +71,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 Trying to implement the Linked in clone
+
+## WHILE WORKING WITH FIREBASE, TOOLS WE NEED TO INSTALL
+* firebase
+* firebase-tools
+* redux-thunk
