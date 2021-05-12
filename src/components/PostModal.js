@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { useState } from "react";
 import ReactPlayer from "react-player";
 import { connect } from "react-redux";
-import firebase from "firebase";
+import firebase from "firebase/app";
 import { postArticleAPI } from "../actions";
 
 const PostModal = (props) => {
