@@ -77,3 +77,5 @@ Trying to implement the Linked in clone
 * firebase-tools
 * redux-thunk
 * react-player
+
+link: https://linkedin-clone-b1cd8.web.app/
