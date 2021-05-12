@@ -76,3 +76,4 @@ Trying to implement the Linked in clone
 * firebase
 * firebase-tools
 * redux-thunk
+* react-player
