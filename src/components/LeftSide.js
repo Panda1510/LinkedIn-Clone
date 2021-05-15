@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import {connect} from 'react-redux';
+import React, { Component }  from 'react';
+
 const LeftSide = (props) => {
   return (
     <Container>

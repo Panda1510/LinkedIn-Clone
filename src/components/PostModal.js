@@ -4,6 +4,7 @@ import ReactPlayer from "react-player";
 import { connect } from "react-redux";
 import firebase from "firebase/app";
 import { postArticleAPI } from "../actions";
+import React, { Component }  from 'react';
 
 const PostModal = (props) => {
   const [editorText, setEditorText] = useState("");

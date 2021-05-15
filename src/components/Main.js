@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { connect } from "react-redux";
 import { getArticlesAPI } from "../actions";
 import ReactPlayer from "react-player";
+import React, { Component }  from 'react';
 
 const Main = (props) => {
   const [showModal, setShowModal] = useState("close");
@@ -35,9 +36,7 @@ const Main = (props) => {
 
   return (
     <>
-      {props.articles.length === 0 ? (
         <p>There are no articles</p>
-      ) : (
         <Container>
           <ShareBox>
             <div>
@@ -155,7 +154,6 @@ const Main = (props) => {
             handleClick={handleClick}
           ></PostModal>
         </Container>
-      )}
     </>
   );
 };

@@ -4,6 +4,7 @@ import Main from "./Main";
 import Rightside from "./RightSide";
 import { Redirect } from "react-router-dom";
 import { connect } from "react-redux";
+import React, { Component }  from 'react';
 
 const Home = (props) => {
   return (

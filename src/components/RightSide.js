@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import React, { Component }  from 'react';
 
 const Rightside = (props) => {
   return (

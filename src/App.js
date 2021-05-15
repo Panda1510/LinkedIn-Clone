@@ -7,7 +7,7 @@ import Header from "./components/Header";
 import { useEffect } from "react";
 import {getUserAuth} from "./actions"; 
 import { connect } from "react-redux";
-
+import React, { Component }  from 'react';
 
 function App(props) {
 
